@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/nav_graph"
+    app:startDestination="@id/SupermanFragment">
+    <fragment
+        android:id="@+id/SupermanFragment"
+        android:name="com.edwinacubillos.sesion5fragments.SupermanFragment"
+        android:label="@string/superman_fragment_label"
+        tools:layout="@layout/fragment_superman">
+        <action
+            android:id="@+id/action_SupermanFragment_to_BatmanFragment"
+            app:destination="@id/BatmanFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/BatmanFragment"
+        android:name="com.edwinacubillos.sesion5fragments.BatmanFragment"
+        android:label="@string/batman_fragment_label"
+        tools:layout="@layout/fragment_batman">
+        <action
+            android:id="@+id/action_BatmanFragment_to_flashFragment"
+            app:destination="@id/flashFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/flashFragment"
+        android:name="com.edwinacubillos.sesion5fragments.FlashFragment"
+        android:label="fragment_flash"
+        tools:layout="@layout/fragment_flash" >
+        <action
+            android:id="@+id/action_flashFragment_to_mujerMaravillaFragment"
+            app:destination="@id/mujerMaravillaFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/mujerMaravillaFragment"
+        android:name="com.edwinacubillos.sesion5fragments.MujerMaravillaFragment"
+        android:label="fragment_mujer_maravilla"
+        tools:layout="@layout/fragment_mujer_maravilla" >
+        <action
+            android:id="@+id/action_mujerMaravillaFragment_to_SupermanFragment"
+            app:destination="@id/SupermanFragment" />
+    </fragment>
+</navigation>

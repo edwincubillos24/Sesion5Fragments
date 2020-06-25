@@ -1,0 +1,25 @@
+<resources>
+    <string name="app_name">Sesión5Fragments</string>
+    <string name="action_settings">Settings</string>
+    <!-- Strings used for fragments for navigation -->
+    <string name="superman_fragment_label">Superman</string>
+    <string name="superman_name">Kal-El, Clark Joseph Kent</string>
+    <string name="superman_powers">Super strength, flight, invulnerability, super speed, heat vision, freeze breath, x-ray vision, superhuman hearing, healing factor</string>
+    <string name="batman_fragment_label">Batman</string>
+    <string name="batman_name">Bruce Wayne</string>
+    <string name="batman_powers">Exceptional martial artist, combat strategy, inexhaustible wealth, brilliant deductive skill, advanced technology</string>
+    <string name="flash_fragment_label">Flash</string>
+    <string name="flash_name">Barry Allen</string>
+    <string name="flash_powers">Super speed, intangibility, superhuman agility</string>
+    <string name="wonder_woman_label">Wonder Woman</string>
+    <string name="wonder_woman_name">Diana Prince</string>
+    <string name="wonder_woman_powers">super strength, invulnerability, flight, combat skill, combat strategy, superhuman agility, healing factor, magic weaponry</string>
+
+    <string name="next">Next</string>
+    <string name="previous">Previous</string>
+
+    <string name="hello_first_fragment">Hello first fragment</string>
+    <string name="hello_second_fragment">Hello second fragment. Arg: %1$s</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+</resources>
