@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_superman"
+            android:icon="@drawable/ic_superman"
+            android:title="@string/superman_fragment_label" />
+        <item
+            android:id="@+id/nav_batman"
+            android:icon="@drawable/ic_batman"
+            android:title="@string/batman_fragment_label" />
+        <item
+            android:id="@+id/nav_flash"
+            android:icon="@drawable/ic_flash"
+            android:title="@string/flash_fragment_label" />
+        <item
+            android:id="@+id/nav_wonderwoman"
+            android:icon="@drawable/ic_wonderwoman"
+            android:title="@string/wonder_woman_label" />
+    </group>
+</menu>
